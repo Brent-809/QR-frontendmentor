@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      @media screen and (max-width: 425px) {
+        .qrContainer {
+          width: 80%;
+          height: 70%;
+        }
+
+        img {
+          object-fit: cover;
+        }
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="flex items-center justify-center h-screen bg-blue-100"
+    >
+      <div
+        class="qrContainer text-center m-20 flex items-center mx-6 flex-col bg-white p-4 rounded-2xl"
+      >
+        <img
+          class="h-72 rounded-xl transform hover:scale-105 duration-200 cursor-pointer"
+          src="./images/image-qr-code.png"
+          alt="qr code"
+        />
+        <p class="w-80 my-4 font-sans font-extrabold text-xl text-blue-950">
+          Improve your front-end<br />skills by building projects
+        </p>
+
+        <p class="w-64 mb-4 text-sm text-gray-400">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+
+      </div>
+      <footer class="fixed bottom-0">
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://brent809.com/">Brent 809</a>.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
