@@ -9,7 +9,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -31,11 +30,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Flexbox
 - CSS Grid
 - [Tailwind](https://tailwindcss.com/) - For styles
-
-
-### Useful resources
-
-- [Example resource 1](https://tailwindcss.com/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
